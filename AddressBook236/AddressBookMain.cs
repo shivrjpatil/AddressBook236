@@ -26,7 +26,7 @@ namespace AddressBook236
         public void Edit(string name)
         {
             Create();
-            //if (contact.FirstName == name || contact.LastName == name)
+            if (contact.FirstName == name || contact.LastName == name)
             {
                 Console.WriteLine("\nWhat do you want to edit ?");
                 Console.WriteLine("1. Address \n2. City \n3. State \n4. Zip Code \n5. Phone Number \n6. Email Id \n");

@@ -32,7 +32,7 @@ namespace AddressBook236
                         Console.WriteLine("First Name - " + "\n" + "Last Name - " + "\n" + "Address - " + "\n" +
                                         "City Name - " + "\n" + "State Name - " + "\n" + "Zip Code - " + "\n" +
                                         "Phone Number - " + "\n" + "Email ID - ");
-                        create.Edit("Lalit");
+                        create.Edit("shiv");
                         break;
                     default:
                         Console.WriteLine("Try Again");
